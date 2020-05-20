@@ -49,6 +49,9 @@ h1 {
   font-size: 36px;
 }
 
+main {
+  width: 100%;
+}
 .middle-title h2 {
   margin: 50px 0 0 30px;
 }
@@ -178,14 +181,17 @@ strong {
   height: 400px;
 }
 
-#trial {
+#try {
   background-color:#c1e4e9;
-  margin: 30px 0;
-  text-align: left;
-  padding: 40px 0 40px 60px;
   border: dashed 5px #008899;
   border-radius: 20px;
+  margin: 30px 0;
 }
+
+.trial-text {
+  padding: 30px 0 30px 30px;
+}
+
 
 #trial a, .container2 a {
   color: white;
@@ -195,17 +201,18 @@ strong {
   box-shadow: 0 2px #393e4f;
 }
 
-.main-bottom {
+.end {
   background-color: #7d7d7d;
   text-align: center;
   padding: 10px 0;
 }
 
-.main-bottom a {
+.end a {
   color: white;
+  text-decoration: none;
 }
 
-footer {
+#footer {
   text-align: center;
 }
 
@@ -216,6 +223,7 @@ footer {
 .small {
   font-size: 12px;
 }
+
 
 @media (max-width: 1000px) {
   .btn-wrapper {
@@ -248,7 +256,7 @@ footer {
     font-size: 14px;
   }
 
-  .main-top, {
+  .main-top {
     flex-direction: column;
   }
 
@@ -300,7 +308,6 @@ footer {
   .container2 ul {
     margin-right: 40px;
     }
-  }
 
   .container3 .small {
     font-size: 10px;
@@ -308,7 +315,6 @@ footer {
 
   #trial {
     width: 100vw;
-    padding-right: 40px;
   }
 
   #trial h2 {
